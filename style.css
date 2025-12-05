@@ -80,8 +80,8 @@ li {
     background-image: url("./assets/image.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1500px;
-    height: 700px;
+    width: 1800px;
+    height: 702.13px;
     border-radius: 35px;
     justify-content: center;
     display: flex;
@@ -96,7 +96,7 @@ li {
     width: 600px;
     gap: 25px;
     align-items: center;
-    
+
 }
 
 .texto-banner {
@@ -104,7 +104,8 @@ li {
     font-size: 69px;
     display: flex;
     justify-content: center;
-
+    margin-top: -25px;
+    gap: 5px;
 
 }
 
@@ -152,7 +153,7 @@ li {
     height: 50px;
     border: 1px solid rgb(87, 87, 87);
     border-radius: 12px;
-    
+
 }
 
 .btn-search {
@@ -161,7 +162,7 @@ li {
     height: 60px;
     border-radius: 15px;
     border: none;
-    
+
 
 }
 
@@ -174,11 +175,32 @@ li {
 }
 
 .texto-search {
+    color: #6868685d;
+}
+
+.texto-all {
     color: #686868;
 }
-.texto-all{
-    color: #686868;
-}
-.texto-btn-search{
+
+.texto-btn-search {
     color: #ffffff;
+}
+
+.texto-why {
+    font-weight: bold;
+    font-size: 29.3px;
+    font-family: 'inter', sans-serif;
+    display: flex;
+    margin: 100px;
+    margin-left: 200px;
+
+}
+
+.img-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+    position: relative;
+    top: -45px; /* Um valor negativo move o elemento 20px para cima */
+
 }
