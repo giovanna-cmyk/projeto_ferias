@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
+@font-face{
+    font-family: inter;
+    src: url("./assets/fonte/Inter-VariableFont_opsz\,wght.ttf");
+}
 #logo {
     height: 90px;
     /*altura */
@@ -68,6 +71,11 @@ li {
     margin: 25px;
     /*espacamento externo*/
 }
+.btn-logo:hover{
+     width: 150px;
+    height:80px;
+}
+
 
 .section-center {
     display: flex;
@@ -77,7 +85,7 @@ li {
 }
 
 .banner {
-    background-image: url("./assets/image.png");
+    background-image: url("./assets/img/imagem_png.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 1800px;
@@ -162,7 +170,10 @@ li {
     height: 60px;
     border-radius: 15px;
     border: none;
-
+}
+.btn-search:hover{
+    width: 160px;
+    height: 65px;
 
 }
 
@@ -201,6 +212,50 @@ li {
     justify-content: space-evenly;
     margin: 100px;
     position: relative;
-    top: -45px; /* Um valor negativo move o elemento 20px para cima */
+    top: -45px;
+    /* Um valor negativo move o elemento 20px para cima */
+}
+
+.titulo-icons {
+    font-weight: bold;
+    font-size: 17.72px;
+    font-family: inter;
+    height: 27px;
+     display: flex;
+    justify-content: space-evenly;
+       
+}
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+   
+
+}
+.card-icone{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.card-texto{
+    width: 200px;
+}
+.lista-cards{
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    justify-content: center;
+}
+h2{
+    font-size: 17px;
+    font-family: inter;
+    font-weight: bold;
+}
+.texto-card{ 
+    font-size: 14.88px;
+    margin: auto;
 
 }
