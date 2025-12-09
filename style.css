@@ -259,3 +259,24 @@ h2{
     margin: auto;
 
 }
+.paises-texto{
+    font-size: 14.88px;
+    margin: auto;
+}
+
+.card-um{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 45px;
+    margin: 105px;
+}
+.card-preços{
+    border: 2px solid  #E7E6E6;
+    width: 300px;
+    height: 388.3px;
+    margin: 105px;
+    display: flex;
+    flex-direction: row;
+}
